@@ -444,8 +444,7 @@ else
     let s:matchParenTermFg = ""
     let s:matchParenTermBg = s:termBlack
 endif
-call s:X("MatchParen",s:matchParenGuiFg,s:matchParenGuiBg,"bold",
-\                     s:matchParenTermFg,s:matchParenTermBg)
+call s:X("MatchParen","F2E049","","underline","Yellow","")
 
 call s:X("TabLine","000000","b0b8c0","italic","",s:termBlack)
 call s:X("TabLineFill","9098a0","","","",s:termBlack)
