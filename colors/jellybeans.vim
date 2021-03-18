@@ -88,7 +88,7 @@ endif
 " - g:jellybeans_use_gui_italics    (default = 1)
 " - g:jellybeans_use_term_italics   (default = 0)
 
-let s:background_color = "151515"
+let s:background_color = "000000"
 
 if exists("g:jellybeans_overrides")
   let s:overrides = g:jellybeans_overrides
@@ -494,7 +494,7 @@ hi! link Conceal Operator
 call s:X("Type","ffb964","","","Yellow","")
 call s:X("NonText","606060",s:background_color,"",s:termBlack,"")
 
-call s:X("SpecialKey","444444","1c1c1c","",s:termBlack,"")
+call s:X("SpecialKey","444444","000000","",s:termBlack,"")
 
 call s:X("Search","f0a0c0","302028","underline","Magenta","")
 
